@@ -13,7 +13,7 @@ import java.util.Date;
 
 @SpringBootApplication
 @AllArgsConstructor
-public class CoursApplication implements CommandLineRunner {
+public class CoursApplication  {
     LivreRepository livreRepository;
 
     public static void main(String[] args) {
